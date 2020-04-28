@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>YOUR WORK TITLE</title>
+        <link href="style/index.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Neuton" rel="stylesheet">
+    </head>
+    <body>
+        <work>
+            <div id="worktitle">
+                <b>.<br> YOUR WORK TITLE <br> .</b> <br> <br> <br> <br>
+                <div id="slickarrows"> </div>
+            </div> <br> <br>
+            <work-pics>
+                <img src="pics/YOUR_PICTURE1.jpg"/>
+                <img src="pics/YOUR_PICTURE2.jpg"/>
+            </work-pics>
+        </work>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+              $('work-pics').slick({
+                  appendArrows: '#slickarrows',
+                  infinite: true,
+                  speed: 0,
+                  slidesToShow: 1,
+                  cssEase: 'none'
+              });
+            });
+        </script>
+        <script type="text/javascript" src="js/addmenu.js"></script>
+    </body>
+</html>
