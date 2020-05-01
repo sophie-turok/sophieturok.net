@@ -135,6 +135,13 @@ work img {
 	width: 500px;
 }
 
+#workpics {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);}
+
 #workcarousel {
 	width: 600px;
 }
