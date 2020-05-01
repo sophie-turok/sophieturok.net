@@ -12,35 +12,28 @@
     <body>
         <work>
             <div id="worktitle">
-                <b>.<br> word blocks <br> .</b> <br> <br> <br> <br>
-                <div id="slickarrows"> </div>
-            </div> <br> <br>
-            <work-pics>
-                <img src="pics/Turok_15.jpg"/>
-                <img src="pics/Turok_16.jpg"/>
-                <img src="pics/Turok_17.jpg"/>
-                <img src="pics/Turok_18.jpg"/>
-                <img src="pics/Turok_19.jpg"/>
-                <img src="pics/good9.jpg"/>
-                <img src="pics/good10.jpg"/>
-                <img src="pics/good11.jpg"/>
-                <img src="pics/good12.jpg"/>
-            </work-pics>
+                <b>word blocks</b>
+            </div>
+            <div id="workcarousel">
+                <div id="workpicswrapper">
+                    <button class="prev"></button>
+                    <div id="workpics" class="siema">
+                        <img src="pics/Turok_15.jpg"/>
+                        <img src="pics/Turok_16.jpg"/>
+                        <img src="pics/Turok_17.jpg"/>
+                        <img src="pics/Turok_18.jpg"/>
+                        <img src="pics/Turok_19.jpg"/>
+                        <img src="pics/good9.jpg"/>
+                        <img src="pics/good10.jpg"/>
+                        <img src="pics/good11.jpg"/>
+                        <img src="pics/good12.jpg"/>
+                    </div>
+                    <button class="next"></button>
+                </div>
+            </div>
         </work>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-        <script type="text/javascript" src="slick/slick.min.js"></script>
-        <script type="text/javascript">
-            $(document).ready(function() {
-              $('work-pics').slick({
-                  appendArrows: '#slickarrows',
-                  infinite: true,
-                  speed: 0,
-                  slidesToShow: 1,
-                  cssEase: 'none'
-              });
-            });
-        </script>
+        <script src="siema.min.js"></script>
+        <script type="text/javascript" src="js/workcarousel.js"></script>
         <script type="text/javascript" src="js/addmenu.js"></script>
     </body>
 </html>

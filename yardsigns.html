@@ -12,30 +12,23 @@
     <body>
         <work>
             <div id="worktitle">
-                <b>.<br> Yard Signs <br> .</b> <br> 
-                <div id="slickarrows"> </div>
-            </div> <br> <br>
-            <work-pics>
-                <img src="pics/IMG_7469.jpeg"/>
-                <img src="pics/IMG_7414.JPG"/>
-                <img src="pics/IMG_7415.jpeg"/>
-                <img src="pics/IMG_7464.JPG"/>
-            </work-pics>
+                <b>Yard Signs</b>
+            </div>
+            <div id="workcarousel">
+                <div id="workpicswrapper">
+                    <button class="prev"></button>
+                    <div id="workpics" class="siema">
+                        <img src="pics/IMG_7469.jpeg"/>
+                        <img src="pics/IMG_7414.JPG"/>
+                        <img src="pics/IMG_7415.jpeg"/>
+                        <img src="pics/IMG_7464.JPG"/>
+                    </div>
+                    <button class="next"></button>
+                </div>
+            </div>
         </work>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-        <script type="text/javascript" src="slick/slick.min.js"></script>
-        <script type="text/javascript">
-            $(document).ready(function() {
-              $('work-pics').slick({
-                  appendArrows: '#slickarrows',
-                  infinite: true,
-                  speed: 0,
-                  slidesToShow: 1,
-                  cssEase: 'none'
-              });
-            });
-        </script>
+        <script src="siema.min.js"></script>
+        <script type="text/javascript" src="js/workcarousel.js"></script>
         <script type="text/javascript" src="js/addmenu.js"></script>
     </body>
 </html>

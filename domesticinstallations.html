@@ -12,34 +12,33 @@
     <body>
         <work>
             <div id="worktitle">
-                <b> domestic installations </b> <br> 
-                <div id="slickarrows"> </div>
-            </div> <br> <br>
-            <work-pics>
-                <img src="pics/Turok_14.jpg"/> 
-                     <br> <p> Tomorrow, 2020, wrapping paper on drywall, 5.5 x 48 inches </p> 
-                <img src="pics/Turok_13.jpg"/>
-                <img src="pics/Turok_9.jpg"/>
-                <img src="pics/Turok_10.jpg"/>
-                   <p> Meteorite, 2020, vaseline, acrylic, glitter, crayon on drywall, 8 x 48 inches </p>
-                <img src="pics/Turok_11.jpg"/>
-                 <p> Microphone, 2020, George Michael poster on drywall, 6 x 48 inches </p>
-            </work-pics>
+                <b> domestic installations </b>
+            </div>
+            <div id="workcarousel">
+              <div id="workpicswrapper">
+                <button class="prev"></button>
+                <div id="workpics" class="siema">
+                    <div> 
+                      <img src="pics/Turok_14.jpg"/> 
+                       <br> <p> Tomorrow, 2020, wrapping paper on drywall, 5.5 x 48 inches </p> 
+                    </div>
+                    <img src="pics/Turok_13.jpg"/>
+                    <img src="pics/Turok_9.jpg"/>
+                    <div> 
+                      <img src="pics/Turok_10.jpg"/>
+                      <p> Meteorite, 2020, vaseline, acrylic, glitter, crayon on drywall, 8 x 48 inches </p> 
+                    </div>
+                    <div> 
+                      <img src="pics/Turok_11.jpg"/>
+                      <p> Microphone, 2020, George Michael poster on drywall, 6 x 48 inches </p> 
+                    </div>
+                </div>
+                <button class="next"></button>
+              </div>
+            </div>
         </work>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-        <script type="text/javascript" src="slick/slick.min.js"></script>
-        <script type="text/javascript">
-            $(document).ready(function() {
-              $('work-pics').slick({
-                  appendArrows: '#slickarrows',
-                  infinite: true,
-                  speed: 0,
-                  slidesToShow: 1,
-                  cssEase: 'none'
-              });
-            });
-        </script>
+        <script src="siema.min.js"></script>
+        <script type="text/javascript" src="js/workcarousel.js"></script>
         <script type="text/javascript" src="js/addmenu.js"></script>
     </body>
 </html>

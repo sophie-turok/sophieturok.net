@@ -103,8 +103,58 @@ work img {
 
 #worktitle {
 	margin-top: 10px;
+	padding-bottom: 60px;
 }
 
-work-pics {
+#workpicswrapper {
+  display: flex;
+  align-items: center;
+}
+
+.prev {
+	background-image: url('leftarrow.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 20px;
+	height: 20px;
+	border: none;
+	margin: 10px;
+}
+
+.next {
+	background-image: url('rightarrow.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 20px;
+	height: 20px;
+	border: none;
+	margin: 10px;
+}
+
+#workpics img {
 	width: 500px;
+}
+
+#workcarousel {
+	width: 600px;
+}
+
+#workpreviews {
+	width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#workpreviews img {
+	width: 100px;
+}
+
+#workpreviews p {
+	display: none;
+}
+
+.siema {
+	width: 500px;
+	height: auto;
+    display: inline-block;
 }
