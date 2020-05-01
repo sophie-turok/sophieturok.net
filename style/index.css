@@ -33,6 +33,10 @@ mainmenu a#boldlink {
 
 
 /**** general style ****/
+.body {
+	font-family: Helvetica;
+}
+
 a {
 	color: black;
     text-decoration: none;
@@ -58,6 +62,7 @@ projects {
 	margin: 0 0 0 215px;
 	display: block;
 	padding: 27px 9px 25px 27px;
+	width: 1045px;
 }
 
 project {
