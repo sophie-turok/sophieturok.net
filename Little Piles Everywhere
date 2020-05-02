@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Little Piles Everywhere</title>
+        <link href="style/index.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Neuton" rel="stylesheet">
+    </head>
+    <body>
+        <work>
+            <div id="worktitle">
+                <b> Little Piles Everywhere </b>
+            </div>
+            <div id="workcarousel">
+              <div id="workpicswrapper">
+                <button class="prev"></button>
+                <div id="workpics" class="siema">
+                    <div>
+                        <img src="pics/IMG_4027.JPG"/>
+                        <p> YOUR DESCRIPTION </p>
+                    </div>
+                    <img src="pics/IMG_4221.jpg"/>
+                </div>
+                <button class="next"></button>
+              </div>
+            </div>
+        </work>
+        <script src="siema.min.js"></script>
+        <script type="text/javascript" src="js/workcarousel.js"></script>
+        <script type="text/javascript" src="js/addmenu.js"></script>
+    </body>
+</html>
