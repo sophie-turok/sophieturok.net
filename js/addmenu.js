@@ -20,8 +20,8 @@ projects.id = 'boldlink'
 mainmenu.appendChild(projects)
 
 // EDIT THESE TWO LINES TO ADD A PAGE
-var projectlinks = ['wordblocks','domesticinstallations','pants','youhavetheseshelveswhatwouldyouputonthem','yardsigns','free']
-var projecttitles = ['word blocks', 'domestic installations', 'pants', 'You have these shelves what would you put on them', 'yard signs', 'free']
+var projectlinks = ['LittlePilesEverywhere','wordblocks','domesticinstallations','pants','youhavetheseshelveswhatwouldyouputonthem','yardsigns','free']
+var projecttitles = ['Little Piles Everywhere', 'word blocks', 'domestic installations', 'pants', 'You have these shelves what would you put on them', 'yard signs', 'free']
 projectlinks.forEach((projectlink, index) => {
 	var button = document.createElement('a')
 	button.innerHTML = projecttitles[index]
