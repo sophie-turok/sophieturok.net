@@ -116,36 +116,36 @@ work img {
   align-items: center;
 }
 
-.prev {
-	background-image: url('leftarrow.svg');
+.navbutton {
 	background-repeat: no-repeat;
 	background-size: contain;
+	background-color: transparent;
 	width: 20px;
 	height: 20px;
 	border: none;
 	margin: 10px;
+}
+
+.navbutton:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.prev {
+	background-image: url('leftarrow.svg');
 }
 
 .next {
 	background-image: url('rightarrow.svg');
-	background-repeat: no-repeat;
-	background-size: contain;
-	width: 20px;
-	height: 20px;
-	border: none;
-	margin: 10px;
 }
 
 #workpics img {
-	width: 500px;
+	width: 100%;
 }
 
 #workpics {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);}
+	width: auto;
+}
 
 #workcarousel {
 	width: 600px;
@@ -153,6 +153,7 @@ work img {
 
 #workpreviews {
 	width: 400px;
+	margin-top: 70px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -166,7 +167,6 @@ work img {
 }
 
 .siema {
-	width: 500px;
 	height: auto;
     display: inline-block;
 }
